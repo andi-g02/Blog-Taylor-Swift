@@ -1,0 +1,121 @@
+/********* Général *********/
+
+body {
+    background-color: #d6c1a3;
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+
+/********* Header *********/
+
+header {
+    color: darkred;
+    font-size: 50px;
+    font-family: "arial black", "sans serif";
+    text-decoration: underline;
+    text-align: center;
+    margin: 2%;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(darkred, rgb(125, 25, 25));
+}
+
+p {
+    font-size: 125%;
+    color: black;
+    margin-left: 10px;
+    font-style: italic;
+}
+
+h1 {
+    text-align: center;
+    color: #57351d;
+    border: 2px solid #57351d;
+}
+
+h2 {
+    color: darkred;
+    font-size: 1.8em;
+    font-family: "arial black", "sans serif";
+    text-decoration: underline;
+    margin-left: 10px;
+}
+
+h3 {
+    color: #4d3625;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.taylor-swift-pic {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1.5%;
+}
+
+.photos {
+    height: 375px;
+}
+
+#identity,
+#albums,
+#erastour {
+    color: #d6c1a3;
+    display: inline;
+    font-size: 150%;
+    margin: 1%;
+}
+
+.photo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.copyright {
+    color: white;
+}
+
+.three-links {
+    color: darkred;
+}
+
+a:link {
+    color: #d6c1a3;
+}
+
+a:visited {
+    color: #d6c1a3;
+}
+
+a:hover {
+    color: beige;
+}
+
+#button-up {
+    display: flex;
+    justify-content: center;
+    width: 30px;
+    height: 40px;
+    align-items: center;
+    position: absolute;
+    right: 40px;
+    bottom: 75px;
+    cursor: pointer;
+}
+
+/********** Footer **********/
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #333333;
+    height: 200px;
+}

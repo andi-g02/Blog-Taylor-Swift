@@ -1,0 +1,98 @@
+/********* Général *********/
+
+body {
+    background-color: #d6c1a3;
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+
+/********* Header *********/
+
+header {
+    color: darkred;
+    font-size:50px;
+    font-family:"arial black","sans serif";
+    text-decoration: underline;
+    text-align: center;
+    margin: 2%;
+}
+
+#identity,
+#albums,
+#erastour {
+    color: #d6c1a3;
+    display: inline;
+    font-size: 150%;
+    margin: 1%;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(darkred, rgb(125, 25, 25));
+}
+
+.album {
+    width: 400px;
+    position: relative;
+    display: flex;
+}
+
+img {
+    margin-left: 20px;
+}
+
+article {
+    font-size: 125%;
+    color: black;
+    font-style:italic;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+    margin-left: 15px;
+}
+
+h2 {
+    color: darkred;
+    font-size:1.8em;
+    font-family:"arial black","sans serif";
+    text-decoration: underline;
+    margin-top: 2.5%;
+    margin-left: 15px;
+    margin-bottom: 1.5%;
+}
+
+a:link {
+    color: #d6c1a3;
+}
+
+a:visited {
+    color: #d6c1a3;
+}
+
+a:hover {
+    color: white;
+}
+
+#button-up {
+    display: flex;
+    justify-content: center;
+    width: 30px;
+    height: 40px;
+    align-items: center;
+    position: absolute;
+    right: 40px;
+    bottom: 75px;
+    cursor: pointer;
+}
+
+/********** Footer **********/
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #333333;
+    height: 200px;
+}
