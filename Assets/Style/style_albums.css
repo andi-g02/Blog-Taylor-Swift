@@ -93,6 +93,12 @@ nav {
     text-decoration: none;
 }
 
+/********** Main **********/
+
+.container-section {
+    padding: 0 20px;
+}
+
 /********** Footer **********/
 
 footer {
@@ -101,6 +107,9 @@ footer {
     justify-content: center;
     background-color: #333333;
     height: 200px;
+}
+
+.copyright {
     color: white;
 }
 

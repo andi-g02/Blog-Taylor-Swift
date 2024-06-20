@@ -8,9 +8,27 @@ body
     margin: 0;
 }
 
-/********* Header *********/
-
 header {
+    color: darkred;
+    font-size:50px;
+    text-decoration: underline;
+    text-align: center;
+    width: 100%;
+}
+
+article {
+    font-size: 125%;
+    color: black;
+    font-style:italic;
+    margin: 10px;
+}
+
+li {
+    list-style: none;
+    padding: 0 10px;
+}
+
+h1 {
     color: darkred;
     font-size: 50px;
     font-family: "arial black", "sans serif";
@@ -19,21 +37,56 @@ header {
     margin: 2%;
 }
 
-#identity,
-#albums,
-#erastour {
-    color: #d6c1a3;
-    display: inline;
-    font-size: 150%;
-    margin: 1%;
+h2 {
+    color: darkred;
+    font-size: 1.8em;
+    font-family: "arial black", "sans serif";
+    text-decoration: underline;
+    margin-left: 10px;
 }
+
+section {
+    text-align:left;
+}
+
+table {
+    Border-Collapse:collapse;
+    border-color: darkred;
+    border: 3px solid darkred;
+    text-align: center;
+    margin: 10px;
+}
+
+a {
+    text-decoration: none;
+    display: flex;
+    color: #d6c1a3;
+}
+
+a:hover {
+    color: beige;
+}
+
+/********* Header *********/
 
 nav {
     display: flex;
     justify-content: center;
     align-items: center;
     background-image: linear-gradient(darkred, rgb(125, 25, 25));
+    width: 100%;
+    gap: 10px;
+    height: 50px;
+    padding: 10px;
     margin-bottom: 40px;
+}
+
+.link-container {
+    display: flex;
+    color: #d6c1a3;
+    font-size: 1.6rem;
+    margin: 1%;
+    text-decoration: none;
 }
 
 #affiche {
@@ -54,54 +107,10 @@ nav {
     margin-right: auto;
 }
 
-article {
-    font-size: 125%;
-    color: black;
-    font-style:italic;
-    margin: 10px;
-}
+/********** Main **********/
 
-h2 {
-    color: darkred;
-    font-family:"arial black","sans serif";
-    text-decoration:underline;
-    margin: 10px
-}
-
-section {
-    text-align:left;
-}
-
-table {
-    Border-Collapse:collapse;
-    border-color: darkred;
-    border: 3px solid darkred;
-    text-align: center;
-    margin: 10px;
-}
-    
-a:link {
-    color: #d6c1a3;
-}
-
-a:visited {
-    color: #d6c1a3;
-}
-
-a:hover {
-    color: saddlebrown;
-}
-
-#button-up {
-    display: flex;
-    justify-content: center;
-    width: 30px;
-    height: 40px;
-    align-items: center;
-    position: absolute;
-    right: 40px;
-    bottom: 75px;
-    cursor: pointer;
+.container-section {
+    padding: 0 20px;
 }
 
 /********** Footer **********/
@@ -112,4 +121,21 @@ footer {
     justify-content: center;
     background-color: #333333;
     height: 200px;
+}
+
+.copyright {
+    color: white;
+}
+
+#button-up {
+    display: flex;
+    justify-content: center;
+    width: 30px;
+    height: 40px;
+    align-items: center;
+    position: absolute;
+    right: 40px;
+    bottom: 80px;
+    cursor: pointer;
+    color: white;
 }
