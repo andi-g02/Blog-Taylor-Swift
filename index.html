@@ -15,66 +15,83 @@
     <header>
         <h1>Taylor Swift</h1>
         <nav>
-            <div id="identity">
-                <a href="index.html"><i class="fa-solid fa-user"></i><li>Identité</li></a>
+            <div id="identity" class="link-container">
+                <a href="index.html"><i class="fa-solid fa-user"></i>
+                    <li>Identité</li>
+                </a>
             </div>
-            <div id="albums">
-                <a href="Pages/albums.html"><i class="fa-solid fa-compact-disc"><li>Albums</li></a>
+            <div id="albums" class="link-container">
+                <a href="Pages/albums.html"><i class="fa-solid fa-compact-disc"></i>
+                    <li>Albums</li>
+                </a>
             </div>
-            <div id="erastour">
-                <a href="Pages/erastour.html"><i class="fa-solid fa-ticket"></i><li>Eras Tour</li></a>
+            <div id="erastour" class="link-container">
+                <a href="Pages/erastour.html"><i class="fa-solid fa-ticket"></i>
+                    <li>Eras Tour</li>
+                </a>
             </div>
         </nav>
     </header>
 
     <main>
-        <h2>Portrait de l'artiste </h2>
-        <h3>Taylor Swift </h3>
-        <div class="taylor-swift-pic">
-            <img class="photos-identity" src="Assets/Images/taylor-swift.jpg" alt="Photo de Taylor Swift" />
-            <img class="photos-identity" src="Assets/Images/taylor_swift_red_carpet.jpg"alt="Taylor Swift sur le tapis rouge" />
-        </div>
-        <p>Taylor Alison Swift est une célèbre chanteuse compositrice interprète américaine née le 13 décembre 1989 à
-            Reading en Pennsylvanie. Elle dit s'inspirer de sa grand-mère maternelle Marjorie qui était chanteuse
-            d'opéra
-            pour qui elle écrira un titre pour son neuvième album "evermore". A 14 ans ses parents Andrea et Scott Swift
-            décident de déménager à Nashville pour augmenter les chances de Taylor pour devenir chanteuse. </p>
-        <h2><a href="https://fr.wikipedia.org/wiki/Nashville">Nashville</a></h2>
-        <p> Taylor, alors agée de 14 ans, prend des cours à domicile dans la ville de Nashville pour se consacrer
-            pleinement
-            à la musique. Elle signe son premier contrat à 14 ans et après avoir joué dans un showcase à New York,
-            Taylor
-            Swift devient la plus jeune artiste embauchée par la maison d'édition de musique Sony/ATV Music Publishing.
-            Elle
-            se fait ensuite repérer par Scott Borchetta, un producteur exécutif de DreamWorks Records. </p>
-        <h3>Nashville</h3>
-        <img class="photo" src="Assets/Images/nashville.jpg" alt="Ville de Nashville aux USA" />
-        <h2> Vie personelle </h2>
-        <p>Taylor Swift a un jeune frère cadet nommé Austin Swift. C'est aussi une amoureuse de chats, elle en adopte
-            trois
-            entre 2011 et 2019. Meredith, Olivia et Benjamin font parti des animaux les plus connus d'internet. Taylor a
-            aussi révélé souffrir de troubles alimentaires. Sa meilleure amie est la chanteuse Selena Gomez mais aussi
-            l'actrice Blake Lively. </p>
-        <img class="photo" src="Assets/Images/taylor_with_cat.jpg" alt="Taylor Swift avec son chat" />
-        <h2> Vie sentimentale </h2>
-        <p>Taylor Swift a eu une vie amoureuse chargée, elle est sortie avec Joe Jonas en 2008 qui la quittera au
-            téléphone
-            en 27 secondes. Elle aura beaucoup d'autres relations amoureuses avant Joe Alwyn avec qui elle restera
-            pendant
-            six ans de 2016 à 2023. Aujourd'hui Taylor sort avec le footballeur américain Travis Kelce, faisant parti de
-            l'équipe des "Chiefs", depuis fin juillet 2023. En novembre Travis officialisera leur couple. </p>
-        <h3>Travis Kelce</h3>
-        <img class="photo" src="Assets/Images/travis_kelce.jpg" alt="Le joueur de football Travis Kelce" />
-        <h2><a href="Pages/albums.html"> Albums</a></h2>
-        <p>La chanteuse Taylor Swift a sorti 10 albums depuis 2006 et s'apprête à sortir son 11ème "The Tortured Poets
-            Department" alias TTPD le 19 Avril prochain.</p>
-        <h2><a href="Pages/erastour.html"> L'Eras Tour</a></h2>
-        <p>La dernière tournée de la chanteuse américaine se prénomme l'Eras Tour, dans cette tournée elle revisite tous
-            ces
-            albums dans un incroyable show de 3 heures.</p>
+        <section class="container-section hero-banner">
+            <h2>Portrait de l'artiste</h2>
+            <div class="taylor-swift-pic">
+                <img class="photos-identity" src="Assets/Images/taylor-swift.jpg" alt="Photo de Taylor Swift" />
+                <img class="photos-identity" src="Assets/Images/taylor_swift_red_carpet.jpg"
+                    alt="Taylor Swift sur le tapis rouge" />
+            </div>
+            <figcaption>Taylor Swift </figcaption>
+            <p> Taylor Alison Swift est une célèbre chanteuse compositrice interprète américaine née le 13 décembre 1989 à
+                Reading en Pennsylvanie. Elle dit s'inspirer de sa grand-mère maternelle Marjorie qui était chanteuse d'opéra
+                pour qui elle écrira un titre pour son neuvième album "evermore". A 14 ans ses parents Andrea et Scott Swift
+                décident de déménager à Nashville pour augmenter les chances de Taylor pour devenir chanteuse. </p>
+        </section>
+
+        <section class="container-section">
+            <h2><a class="link-outside" href="https://fr.wikipedia.org/wiki/Nashville">Nashville</a></h2>
+            <p> Taylor, alors agée de 14 ans, prend des cours à domicile dans la ville de Nashville pour se consacrer pleinement
+                à la musique. Elle signe son premier contrat à 14 ans et après avoir joué dans un showcase à New York, Taylor
+                Swift devient la plus jeune artiste embauchée par la maison d'édition de musique Sony/ATV Music Publishing.
+                Elle se fait ensuite repérer par Scott Borchetta, un producteur exécutif de DreamWorks Records. </p>
+            <img class="photo" src="Assets/Images/nashville.jpg" alt="Ville de Nashville aux USA" />
+            <figcaption>Nashville</figcaption>
+        </section>
+
+        <section class="container-section">
+            <h2>Vie personnelle</h2>
+            <p> Taylor Swift a un jeune frère cadet nommé Austin Swift. C'est aussi une amoureuse de chats, elle en adopte trois
+                entre 2011 et 2019. Meredith, Olivia et Benjamin font parti des animaux les plus connus d'internet. Taylor a
+                aussi révélé souffrir de troubles alimentaires. Sa meilleure amie est la chanteuse Selena Gomez mais aussi
+                l'actrice Blake Lively. </p>
+            <img class="photo" src="Assets/Images/taylor_with_cat.jpg" alt="Taylor Swift avec son chat" />
+        </section>
+
+        <section class="container-section">
+            <h2>Vie sentimentale</h2>
+            <p> Taylor Swift a eu une vie amoureuse chargée, elle est sortie avec Joe Jonas en 2008 qui la quittera au téléphone
+                en 27 secondes. Elle aura beaucoup d'autres relations amoureuses avant Joe Alwyn avec qui elle restera pendant
+                six ans de 2016 à 2023. Aujourd'hui Taylor sort avec le footballeur américain Travis Kelce, faisant
+                parti de l'équipe des "Chiefs", depuis fin juillet 2023. En novembre Travis officialisera leur couple. </p>
+            <figcaption>Travis Kelce</figcaption>
+            <img class="photo" src="Assets/Images/travis_kelce.jpg" alt="Le joueur de football Travis Kelce" />
+        </section>
+
+        <section class="container-section">
+            <h2><a class="link-outside" href="Pages/albums.html"> Albums</a></h2>
+            <p> La chanteuse Taylor Swift a sorti 10 albums depuis 2006 et s'apprête à sortir son 11ème "The Tortured Poets
+                Department" alias TTPD le 19 Avril prochain.</p>
+        </section>
+
+        <section class="container-section">
+            <h2><a class="link-outside" href="Pages/erastour.html"> L'Eras Tour</a></h2>
+            <p> La dernière tournée en date de la chanteuse américaine se prénomme l'Eras Tour, dans cette tournée elle revisite tous
+                ces albums dans un incroyable show de 3 heures.</p>
+        </section>
+
     </main>
     <!--<button onclick="location.href='#'"><i class="fa-solid fa-arrow-up-long fa-xl"></i></button>-->
-    <a id="button-up" onclick="location.href='#'"><i class="fa-solid fa-arrow-up-long fa-xl"></i></a>
+    <a id="button-up" href='#'><i class="fa-solid fa-arrow-up-long fa-xl"></i></a>
     <!-- Footer -->
     <footer>
         <p class="copyright">Elève au lycée Maréchal Soult en classe de 2nd4</p>

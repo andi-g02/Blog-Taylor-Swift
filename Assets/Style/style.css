@@ -1,5 +1,19 @@
 /********* Général *********/
 
+.flex {
+    display: flex;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 body {
     background-color: #d6c1a3;
     position: relative;
@@ -7,7 +21,10 @@ body {
     margin: 0;
 }
 
-/********* Header *********/
+li {
+    list-style: none;
+    padding: 0 10px;
+}
 
 h1 {
     color: darkred;
@@ -18,19 +35,17 @@ h1 {
     margin: 2%;
 }
 
-nav {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-image: linear-gradient(darkred, rgb(125, 25, 25));
-}
-
 h2 {
     color: darkred;
     font-size: 1.8em;
     font-family: "arial black", "sans serif";
     text-decoration: underline;
     margin-left: 10px;
+}
+
+h3 {
+    color: #4d3625;
+    text-align: center;
 }
 
 p {
@@ -40,19 +55,29 @@ p {
     font-size: 115%;
 }
 
-#identity,
-#albums,
-#erastour {
-    color: #d6c1a3;
-    display: inline;
-    font-size: 150%;
-    margin: 1%;
+header {
+    width: 100%;
 }
 
-h3 {
-    color: #4d3625;
-    text-decoration: underline;
-    text-align: center;
+/********* Header *********/
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(darkred, rgb(125, 25, 25));
+    width: 100%;
+    gap: 10px;
+    height: 50px;
+    padding: 10px;
+}
+
+.link-container {
+    display: flex;
+    color: #d6c1a3;
+    font-size: 1.6rem;
+    margin: 1%;
+    text-decoration: none;
 }
 
 .taylor-swift-pic {
@@ -63,7 +88,7 @@ h3 {
 }
 
 .photos-identity {
-    height: 375px;
+    height: 360px;
 }
 
 .photo {
@@ -72,32 +97,25 @@ h3 {
     margin-right: auto;
 }
 
-a:link {
+a {
+    text-decoration: none;
+    display: flex;
     color: #d6c1a3;
 }
 
-a:visited {
-    color: #d6c1a3;
-}
 
 a:hover {
     color: beige;
 }
 
-#button-up {
-    display: flex;
-    justify-content: center;
-    width: 30px;
-    height: 40px;
-    align-items: center;
-    position: absolute;
-    right: 40px;
-    bottom: 75px;
-    cursor: pointer;
+/********** Main **********/
+
+.container-section {
+    padding: 0 20px;
 }
 
-.copyright {
-    color: white;
+.link-outside {
+    color: darkred;
 }
 
 /********** Footer **********/
@@ -108,4 +126,21 @@ footer {
     justify-content: center;
     background-color: #333333;
     height: 200px;
+}
+
+.copyright {
+    color: white;
+}
+
+#button-up {
+    display: flex;
+    justify-content: center;
+    width: 30px;
+    height: 40px;
+    align-items: center;
+    position: absolute;
+    right: 40px;
+    bottom: 80px;
+    cursor: pointer;
+    color: white;
 }
