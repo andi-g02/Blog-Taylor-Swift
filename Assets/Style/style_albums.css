@@ -93,6 +93,10 @@ nav {
     text-decoration: none;
 }
 
+#cheat {
+    visibility: hidden;
+}
+
 /********** Main **********/
 
 .container-section {

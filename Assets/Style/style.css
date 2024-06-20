@@ -102,6 +102,10 @@ nav {
     margin-right: auto;
 }
 
+#cheat {
+    visibility: hidden;
+}
+
 /********** Main **********/
 
 .container-section {
