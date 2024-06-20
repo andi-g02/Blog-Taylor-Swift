@@ -59,6 +59,16 @@ header {
     width: 100%;
 }
 
+a {
+    text-decoration: none;
+    display: flex;
+    color: #d6c1a3;
+}
+
+a:hover {
+    color: beige;
+}
+
 /********* Header *********/
 
 nav {
@@ -95,17 +105,6 @@ nav {
     display: block;
     margin-left: auto;
     margin-right: auto;
-}
-
-a {
-    text-decoration: none;
-    display: flex;
-    color: #d6c1a3;
-}
-
-
-a:hover {
-    color: beige;
 }
 
 /********** Main **********/
