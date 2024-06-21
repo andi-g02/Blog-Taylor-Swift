@@ -37,10 +37,10 @@ img {
 article {
     font-size: 125%;
     color: black;
-    font-style:italic;
     margin-top: 1.5%;
     margin-bottom: 1.5%;
-    margin-left: 15px;
+    margin-left: 15px;    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 h1 {
@@ -83,6 +83,7 @@ nav {
     width: 400px;
     position: relative;
     display: flex;
+    border: 3px solid darkred;
 }
 
 .link-container {
@@ -95,6 +96,26 @@ nav {
 
 #cheat {
     visibility: hidden;
+}
+
+.tracklist-left {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    left: 480px;
+    background-color: rgba(139, 0, 0, 75%);
+    border-radius: 20px;
+    font-size: 18.5px;
+}
+
+.tracklist-right {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    left: 800px;
+    background-color: rgba(139, 0, 0, 75%);
+    border-radius: 20px;
+    font-size: 18.5px;
 }
 
 /********** Main **********/
@@ -111,6 +132,7 @@ footer {
     justify-content: center;
     background-color: #333333;
     height: 200px;
+    margin-top: 50px;
 }
 
 .copyright {

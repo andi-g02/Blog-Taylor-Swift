@@ -19,8 +19,10 @@ header {
 article {
     font-size: 125%;
     color: black;
-    font-style:italic;
     margin: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    text-align: center;
 }
 
 li {
@@ -43,6 +45,8 @@ h2 {
     font-family: "arial black", "sans serif";
     text-decoration: underline;
     margin-left: 10px;
+    display: flex;
+    justify-content: center;
 }
 
 section {
@@ -62,7 +66,7 @@ a {
     display: flex;
     color: #d6c1a3;
 }
-
+    
 a:hover {
     color: beige;
 }
@@ -79,6 +83,7 @@ nav {
     height: 50px;
     padding: 10px;
     margin-bottom: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .link-container {
@@ -125,6 +130,7 @@ footer {
     justify-content: center;
     background-color: #333333;
     height: 200px;
+    margin-top: 50px;
 }
 
 .copyright {
