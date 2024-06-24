@@ -62,10 +62,6 @@ h2 {
     margin-bottom: 1.5%;
 }
 
-a:hover {
-    color: white;
-}
-
 /********* Header *********/
 
 nav {
@@ -106,6 +102,7 @@ nav {
     background-color: rgba(139, 0, 0, 75%);
     border-radius: 20px;
     font-size: 18.5px;
+    box-shadow: 5px 5px rgb(58, 1, 1);
 }
 
 .tracklist-right {
@@ -115,7 +112,8 @@ nav {
     left: 800px;
     background-color: rgba(139, 0, 0, 75%);
     border-radius: 20px;
-    font-size: 18.5px;  
+    font-size: 18.5px;
+    box-shadow: 5px 5px rgb(58, 1, 1);
 }
 
 /********** Main **********/
