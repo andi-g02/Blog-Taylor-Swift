@@ -41,6 +41,7 @@ h2 {
     font-family: "arial black", "sans serif";
     text-decoration: underline;
     margin-left: 10px;
+    z-index: 1;
 }
 
 p {
@@ -86,13 +87,6 @@ nav {
     text-decoration: none;
 }
 
-.taylor-swift-pic {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 1.5%;
-}
-
 .photos-identity {
     height: 360px;
 }
@@ -125,6 +119,44 @@ figcaption {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-style: italic;
 }
+
+/******Hero Banner******/
+
+.hero-banner {
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    justify-content: space-between;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 0;
+}
+
+.banner-text {
+    color: white;
+    z-index: 1;
+}
+
+.banner-caption {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    color: white;
+    font-size: 14px;
+}
+
+.banner-overlay {
+    position: absolute;
+    width: 100%;
+    height: 70vh;
+    background-color: rgba(0, 0, 0, 0.5);    
+}
+
+
+
+
+
+
 
 /********** Footer **********/
 
