@@ -181,3 +181,17 @@ footer {
     cursor: pointer;
     color: white;
 }
+
+/***** Responsive ****/
+
+/* @media screen and (max-width: 992px) {
+    body {
+
+    }
+}  */
+
+/* @media screen and (max-width: 480px) {
+   .albums {
+        
+   }
+} */

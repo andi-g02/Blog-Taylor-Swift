@@ -81,7 +81,8 @@ nav {
     width: 100%;
     gap: 10px;
     height: 50px;
-    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     margin-bottom: 40px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -103,7 +104,7 @@ nav {
     border: 8px solid darkred;
     border-style: ridge;
 }
-
+/* 
 #onstage {
     margin: 2.5%;
     width: 30%;
@@ -112,6 +113,27 @@ nav {
     margin-right: auto;
     border: 8px solid darkred;
     border-style: ridge;
+} */
+
+.folk-mid-rep-stages {
+    display: flex;
+    justify-content: space-around;
+    height: 450px;
+    margin: 70px;
+    width: 85%;
+}
+
+#folk_suit,
+#rep_suit,
+#mid_suit {
+    border: 8px solid darkred;
+    border-style: ridge;
+    margin-top: 40px;
+}
+
+#mid_suit {
+    height: 500px;
+    margin-top: -10px;
 }
 
 #cheat {
